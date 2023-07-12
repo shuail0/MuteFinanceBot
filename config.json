@@ -1,0 +1,49 @@
+{
+    "baseConfig":{
+        "test":false,
+        "walletPath": "/Users/lishuai/Documents/crypto/bockchainbot/TestWalletData.csv",
+        "projectName": "Velocore",
+        "maxGasPrice": 30,
+        "minAmountPct": 0.2,
+        "maxAmountPct": 0.3,
+        "minSleepTime": 1,
+        "maxSleepTime": 5
+    },
+    "Network":{
+        "mainNetwork": {
+            "RPC":{
+            "zks":"https://mainnet.era.zksync.io",
+            "eth":"https://eth-mainnet.g.alchemy.com/v2/qRnk4QbaEmXJEs5DMnhitC0dSow-qATl"
+            },
+            "tokenAddress":{
+                "wETHAddress": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+                "wETH9Address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+                "usdcAddress": "0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4",
+                "ZERO_ADDRESS": "0x0000000000000000000000000000000000000000",
+                "ETH_ADDRESS": "0x0000000000000000000000000000000000000000",
+                "USD+_Address": "0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557"
+            },
+            "contractAddress":{
+                "factory": "0x40be1cBa6C5B47cDF9da7f963B6F761F4C60627D",
+                "router": "0x8B791913eB07C32779a16750e3868aA8495F5964"
+            }
+        },
+        "testNetwork":{
+            "RPC":{
+            "zks":"http://127.0.0.1:8545",
+            "eth":"https://eth-mainnet.g.alchemy.com/v2/qRnk4QbaEmXJEs5DMnhitC0dSow-qATl"
+            },
+            "tokenAddress":{
+                "wETHAddress": "0x20b28b1e4665fff290650586ad76e977eab90c5d",
+                "wETH9Address": "0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91",
+                "usdcAddress": "0xfcEd12dEbc831D3a84931c63687C395837D42c2B",
+                "ZERO_ADDRESS": "0x0000000000000000000000000000000000000000",
+                "ETH_ADDRESS": "0x0000000000000000000000000000000000000000",
+                "USD+_Address": "0x8E86e46278518EFc1C5CEd245cBA2C7e3ef11557"
+            },
+            "contractAddress":{
+                "factory": "0x64c2F1306b4ED3183E7B345158fd01c19C0d8c5E"
+            }
+        }
+    }
+}
